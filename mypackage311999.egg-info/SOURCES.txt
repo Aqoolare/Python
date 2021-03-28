@@ -1,0 +1,10 @@
+README.txt
+setup.py
+mypackage/__init__.py
+mypackage/core.py
+mypackage311999/__init__.py
+mypackage311999/core.py
+mypackage311999.egg-info/PKG-INFO
+mypackage311999.egg-info/SOURCES.txt
+mypackage311999.egg-info/dependency_links.txt
+mypackage311999.egg-info/top_level.txt
