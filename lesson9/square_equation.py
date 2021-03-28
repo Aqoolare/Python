@@ -71,11 +71,11 @@ import cmath
 
 def solve(a, b, c):
     if is_complex(a) and is_complex(b) and is_complex(c):
-        d_sqrt = cmath.sqrt(b**2 - 4*a*c)
         a = complex(a)
         b = complex(b)
         c = complex(c)
-        if a != 0:    
+        if a != 0:
+            d_sqrt = cmath.sqrt(b**2 - 4*a*c)    
             a2 = 2 * a
             x1 = (-b - d_sqrt) / a2
             x2 = (-b + d_sqrt) / a2
